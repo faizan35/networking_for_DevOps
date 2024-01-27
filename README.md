@@ -69,18 +69,18 @@
 
 ### Module 6: Infrastructure as Code (IaC) for Networking
 
-6.1 **Using Automation Tools**
+##### [6.1 Using Automation Tools](./Module-6/6.1-Using-Automation-Tools.md)
 
 - Ansible, Puppet, or Chef for network automation
 - Writing playbooks for network configuration
 
 ### Module 7: Container Networking
 
-7.1 **Docker Networking**
+##### 7.1 Docker Networking
 
 - Basics of container networking
 
-  7.2 **Kubernetes Networking Concepts**
+##### 7.2 Kubernetes Networking Concepts
 
 - Networking in Kubernetes environments
 
