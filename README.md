@@ -57,12 +57,12 @@
 
 ### Module 5: Network Security
 
-5.1 **Firewalls and Security Devices**
+##### [5.1 Firewalls and Security Devices](./Module-5/5.1-Firewalls-Security.md)
 
 - Introduction to firewalls
 - Network security best practices
 
-  5.2 **Virtual Private Networks (VPNs)**
+##### [5.2 Virtual Private Networks (VPNs)](./Module-5/5.2-VPN.md)
 
 - Basics of VPNs
 - Implementing VPNs for secure communication
