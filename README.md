@@ -19,13 +19,13 @@
 
 ### Module 2: IP Addressing and Subnetting
 
-2.1 **IPv4 Addressing**
+##### [2.1 IPv4 Addressing](./Module-2/2.1-IPv4-Addressing.md)
 
 - Binary representation
 - Classes of IP addresses (A, B, C)
 - Private vs. Public IP addresses
 
-  2.2 **Subnetting**
+##### [2.2 Subnetting](./Module-2/2.2-Subnetting.md)
 
 - Subnetting basics and importance
 - Subnet masks and CIDR notation
