@@ -32,25 +32,25 @@
 
 ### Module 3: Routing and Switching
 
-3.1 **Routing Concepts**
+##### [3.1 Routing Concepts](./Module-3/3.1-Routing-Concepts.md)
 
 - Basics of routing
 - Routing tables and how they work
 - Static vs. Dynamic Routing
 
-  3.2 **Switching**
+##### [3.2 Switching](./Module-3/3.2-Switching.md)
 
 - Understanding switches and their role
 - VLANs and their importance in modern networks
 
 ### Module 4: Network Services
 
-4.1 **Domain Name System (DNS)**
+##### [4.1 Domain Name System (DNS)](./Module-4/4.1-Domain-Name-System.md)
 
 - DNS resolution process
 - Configuring DNS settings
 
-  4.2 **Dynamic Host Configuration Protocol (DHCP)**
+##### [4.2 Dynamic Host Configuration Protocol (DHCP)](./Module-4/4.2-Dynamic-Host-Configuration.md)
 
 - DHCP basics
 - DHCP server configuration
