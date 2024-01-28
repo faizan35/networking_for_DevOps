@@ -130,12 +130,12 @@
 
 ### Module 10: Version Control for Network Configurations
 
-10.1 **Using Git for Network Configuration Version Control**
+##### [10.1 Using Git for Network Configuration Version Control](./Module-10/10.1-Using-Git-Network-Configuration.md)
 
 - Best practices for managing network changes
 
 ### Module 11: Continuous Integration/Continuous Deployment (CI/CD) for Networking
 
-11.1 **Integrating Network Changes into CI/CD Pipelines**
+##### [11.1 Integrating Network Changes into CI/CD Pipelines](./Module-11/11.1-Integrating-Network-into-CI-CD-Pipelines.md)
 
 - Automated testing for network configurations
