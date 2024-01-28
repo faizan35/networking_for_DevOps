@@ -74,15 +74,34 @@
 - Ansible, Puppet, or Chef for network automation
 - Writing playbooks for network configuration
 
-### Module 7: Container Networking
+### Module 7: Docker Networking
 
-##### 7.1 Docker Networking
+##### [7.1 Introduction and Basics of Docker Networking](./Module-7/7.1-Introduction-Docker-Networking.md)
 
-- Basics of container networking
+- Overview of Docker as a containerization platform.
+- Importance of networking in containerized environments.
+- Basics of container communication within a host.
+- Understanding the default bridge network.
 
-##### 7.2 Kubernetes Networking Concepts
+##### [7.2 Custom Networks in Docker](./Module-7/7.2-Custom-Networks-Docker.md)
 
-- Networking in Kubernetes environments
+- Creating and utilizing custom bridge networks.
+- Communication between containers in user-defined bridge networks.
+- Use of container names for intra-network communication.
+
+##### [7.3 Advanced Networking Concepts and Connectivity](./Module-7/7.3-Advanced-Networking-Concepts-Connectivity.md)
+
+- Introduction to overlay networks in Docker.
+- Container DNS resolution and service discovery.
+- Port mapping and configuring external connectivity.
+- Utilizing the host network mode for direct host stack access.
+
+##### [7.4 Advanced Topics, Security, and Commands](./Module-7/7.4-Advanced-Topics-Security-Commands.md)
+
+- Docker Compose for defining multi-container applications.
+- Third-party network plugins and their applications.
+- Security considerations in Docker networking.
+- Essential Docker networking commands (`docker network ls`, `docker network create`, etc.).
 
 ### Module 8: Cloud Networking
 
