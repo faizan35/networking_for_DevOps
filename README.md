@@ -105,12 +105,14 @@
 
 ### Module 8: Cloud Networking
 
-8.1 **Cloud Service Models**
+##### [8.1 Cloud Service Models](./Module-8/8.1-Cloud-Service-Models.md)
 
 - IaaS, PaaS, SaaS
 - Networking in the cloud
 
-  8.2 **Cloud Providers (Choose one: AWS, Azure, GCP)**
+##### [8.2 Cloud Providers (Choose one: AWS, Azure, GCP)](./Module-8/8.2-Cloud-Providers-AWS.md)
+
+**Chosen AWS**
 
 - Basics of cloud networking
 - Virtual Private Cloud (VPC), Subnetting, Security Groups
