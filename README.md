@@ -119,12 +119,12 @@
 
 ### Module 9: Monitoring and Logging
 
-9.1 **Network Monitoring Tools**
+##### [9.1 Network Monitoring Tools](./Module-9/9.1-Network-Monitoring-Tools.md)
 
 - Introduction to monitoring tools (e.g., Nagios, Prometheus)
 - Monitoring network performance
 
-  9.2 **Log Aggregation**
+##### [9.2 Log Aggregation](./Module-9/9.2-Log-Aggregation.md)
 
 - Using ELK stack for log aggregation
 
