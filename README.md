@@ -1,141 +1,191 @@
 # Networking for DevOps
 
-## Module 1: Introduction to Networking Basics
+## 1. Basic Networking Concepts
 
-##### [1.1 Overview of Computer Networks](./Module-1/1.1-Overview-Computer-Networks.md)
+### 1.1. **OSI and TCP/IP Models**
 
-- Definition and importance of computer networks
-- Types of networks: LAN, WAN, MAN
+- Understanding the layers and their functions.
+- Protocols associated with each layer
+- Difference between OSI and TCP/IP models.
 
-##### [1.2 OSI Model and TCP/IP Model](./Module-1/1.2-OSI-Model-TCP-IP-Model.md)
+### 1.2. **IP Addressing**
 
-- Understanding the layers and their functions
-- Comparison of OSI and TCP/IP models
+- IPv4 and IPv6
+- Subnetting and Supernetting
+- Public vs. private IP addresses
+- CIDR (Classless Inter-Domain Routing).
+- NAT (Network Address Translation)
 
-##### [1.3 Networking Protocols & Ports](./Module-1/1.3-Networking-Protocols.md)
+### 1.3. **DNS (Domain Name System)**
 
-- Common protocols (e.g., HTTP, HTTPS, TCP, UDP, DNS)
-- Common Ports
-
-### Module 2: IP Addressing and Subnetting
-
-##### [2.1 IPv4 Addressing](./Module-2/2.1-IPv4-Addressing.md)
-
-- Binary representation
-- Classes of IP addresses (A, B, C)
-- Private vs. Public IP addresses
-
-##### [2.2 Subnetting](./Module-2/2.2-Subnetting.md)
-
-- Subnetting basics and importance
-- Subnet masks and CIDR notation
-
-### Module 3: Routing and Switching
-
-##### [3.1 Routing Concepts](./Module-3/3.1-Routing-Concepts.md)
-
-- Basics of routing
-- Routing tables and how they work
-- Static vs. Dynamic Routing
-
-##### [3.2 Switching](./Module-3/3.2-Switching.md)
-
-- Understanding switches and their role
-- VLANs and their importance in modern networks
-
-### Module 4: Network Services
-
-##### [4.1 Domain Name System (DNS)](./Module-4/4.1-Domain-Name-System.md)
-
+- How DNS works
+- Types of DNS records (A, AAAA, CNAME, MX, PTR, etc.)
 - DNS resolution process
-- Configuring DNS settings
 
-##### [4.2 Dynamic Host Configuration Protocol (DHCP)](./Module-4/4.2-Dynamic-Host-Configuration.md)
+### 1.4. **MAC Addressing**
 
-- DHCP basics
-- DHCP server configuration
+- Understanding MAC addresses
+- ARP (Address Resolution Protocol)
 
-### Module 5: Network Security
+## 2. Network Protocols
 
-##### [5.1 Firewalls and Security Devices](./Module-5/5.1-Firewalls-Security.md)
+### 2.1. **Common Network Protocols**
 
-- Introduction to firewalls
-- Network security best practices
+- HTTP/HTTPS
+- FTP/SFTP/FTPS
+- SSH
+- SMTP/IMAP/POP3
+- SNMP
 
-##### [5.2 Virtual Private Networks (VPNs)](./Module-5/5.2-VPN.md)
+### 2.2. **TCP/UDP**
 
-- Basics of VPNs
-- Implementing VPNs for secure communication
+- Differences between TCP and UDP.
+- Common TCP and UDP ports and their uses.
 
-### Module 6: Infrastructure as Code (IaC) for Networking
+### 2.3. **Routing and Switching**
 
-##### [6.1 Using Automation Tools](./Module-6/6.1-Using-Automation-Tools.md)
+- Basics of routers and switches
+- Static vs. dynamic routing
+- Common routing protocols (OSPF, BGP, etc.)
 
-- Ansible, Puppet, or Chef for network automation
-- Writing playbooks for network configuration
+### 2.4. **Network Services**
 
-### Module 7: Docker Networking
+- DHCP (Dynamic Host Configuration Protocol):
+  - How DHCP works.
+  - DHCP leases and options.
+- NTP (Network Time Protocol)
 
-##### [7.1 Introduction and Basics of Docker Networking](./Module-7/7.1-Introduction-Docker-Networking.md)
+## 3. Network Devices and Components
 
-- Overview of Docker as a containerization platform.
-- Importance of networking in containerized environments.
-- Basics of container communication within a host.
-- Understanding the default bridge network.
+### 3.1. **Routers and Switches:**
 
-##### [7.2 Custom Networks in Docker](./Module-7/7.2-Custom-Networks-Docker.md)
+- Functionality and configuration basics.
+- Routing protocols (RIP, OSPF, BGP).
 
-- Creating and utilizing custom bridge networks.
-- Communication between containers in user-defined bridge networks.
-- Use of container names for intra-network communication.
+### 3.2. **Firewalls:**
 
-##### [7.3 Advanced Networking Concepts and Connectivity](./Module-7/7.3-Advanced-Networking-Concepts-Connectivity.md)
+- How firewalls work
+- Types of firewalls (network-based, host-based).
+- Firewall rules and configurations.
+- security groups and network ACLs
 
-- Introduction to overlay networks in Docker.
-- Container DNS resolution and service discovery.
-- Port mapping and configuring external connectivity.
-- Utilizing the host network mode for direct host stack access.
+### 3.3. **Load Balancers:**
 
-##### [7.4 Advanced Topics, Security, and Commands](./Module-7/7.4-Advanced-Topics-Security-Commands.md)
+- Layer 4 vs. Layer 7
+- Types of load balancers (hardware, software, cloud-based).
+- Load balancing algorithms (round-robin, least connections, etc.).
 
-- Docker Compose for defining multi-container applications.
-- Third-party network plugins and their applications.
-- Security considerations in Docker networking.
-- Essential Docker networking commands (`docker network ls`, `docker network create`, etc.).
+## 4. Network Security
 
-### Module 8: Cloud Networking
+### 4.1. **VPNs (Virtual Private Networks)**
 
-##### [8.1 Cloud Service Models](./Module-8/8.1-Cloud-Service-Models.md)
+- Types of VPNs (site-to-site, remote access)
+- VPN protocols (IPsec, SSL/TLS)
 
-- IaaS, PaaS, SaaS
-- Networking in the cloud
+### 4.2. **Proxy Servers**
 
-##### [8.2 Cloud Providers (Choose one: AWS, Azure, GCP)](./Module-8/8.2-Cloud-Providers-AWS.md)
+- Forward proxy vs. reverse proxy
+- Use cases for proxies
 
-**Chosen AWS**
+### 4.3. **Intrusion Detection and Prevention Systems (IDS/IPS):**
 
-- Basics of cloud networking
-- Virtual Private Cloud (VPC), Subnetting, Security Groups
+- Understanding IDS and IPS.
+- Difference between detection and prevention.
 
-### Module 9: Monitoring and Logging
+### 4.4. **Network Segmentation:**
 
-##### [9.1 Network Monitoring Tools](./Module-9/9.1-Network-Monitoring-Tools.md)
+- Importance and methods of network segmentation.
+- VLANs (Virtual Local Area Networks).
 
-- Introduction to monitoring tools (e.g., Nagios, Prometheus)
-- Monitoring network performance
+---
 
-##### [9.2 Log Aggregation](./Module-9/9.2-Log-Aggregation.md)
+## 5. Cloud Networking
 
-- Using ELK stack for log aggregation
+### 5.1. **Virtual Private Cloud (VPC)**
 
-### Module 10: Version Control for Network Configurations
+- VPC setup and configuration
+- Subnets, route tables, and gateways
 
-##### [10.1 Using Git for Network Configuration Version Control](./Module-10/10.1-Using-Git-Network-Configuration.md)
+2. **Security Groups and Network ACLs**
 
-- Best practices for managing network changes
+   - Configuring and managing security groups
+   - Network ACLs (Access Control Lists) in cloud environments
 
-### Module 11: Continuous Integration/Continuous Deployment (CI/CD) for Networking
+3. **Load Balancers in the Cloud**
 
-##### [11.1 Integrating Network Changes into CI/CD Pipelines](./Module-11/11.1-Integrating-Network-into-CI-CD-Pipelines.md)
+   - Cloud-specific load balancing services (e.g., AWS ELB, Azure Load Balancer)
 
-- Automated testing for network configurations
+4. **DNS Services in the Cloud**
+   - Cloud DNS services (e.g., Route 53, Azure DNS)
+
+### Monitoring and Troubleshooting
+
+1. **Network Monitoring Tools**
+
+   - Common tools (Wireshark, tcpdump, Nagios, etc.)
+   - Network performance metrics
+
+2. **Troubleshooting Techniques**
+   - Analyzing network traffic
+   - Diagnosing and resolving network issues
+
+### Practical Skills
+
+1. **Shell Scripting for Network Management**
+
+   - Automating network tasks with scripts
+
+2. **Configuring and Managing Network Devices**
+
+   - Basic configuration of routers, switches, and firewalls
+
+3. **Using Cloud Provider Networking Tools**
+   - Managing cloud networking components through the cloud provider's console and CLI
+
+By mastering these concepts and skills, you'll be well-prepared for a DevOps Engineer role with a strong foundation in networking.
+
+---
+
+### **Cloud Networking**
+
+1. **VPC (Virtual Private Cloud):**
+
+   - VPC configuration and components (subnets, route tables, internet gateways).
+   - Security groups and network ACLs.
+
+2. **Hybrid Cloud Connectivity:**
+
+   - Direct Connect (AWS), ExpressRoute (Azure), Cloud Interconnect (GCP).
+
+3. **DNS Services:**
+   - Cloud DNS services (Route 53, Azure DNS, Cloud DNS).
+
+### **Network Monitoring and Troubleshooting**
+
+1. **Network Monitoring Tools:**
+
+   - Tools like Nagios, Zabbix, Prometheus, Grafana.
+
+2. **Packet Analysis:**
+
+   - Tools like Wireshark for packet capture and analysis.
+
+3. **Troubleshooting Techniques:**
+   - Common network troubleshooting commands (ping, traceroute, netstat, nslookup, dig).
+
+### **Scripting and Automation**
+
+1. **Infrastructure as Code (IaC):**
+
+   - Using tools like Terraform, Ansible for network configuration management.
+
+2. **Network Automation:**
+
+   - Scripting for network automation (Python, Bash).
+
+3. **Configuration Management:**
+   - Tools like Ansible, Puppet, Chef for managing network device configurations.
+
+Understanding these networking concepts and technologies will be essential for a DevOps Engineer role, enabling you to design, deploy, and manage reliable and secure network infrastructure.
+
+---
