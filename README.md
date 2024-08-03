@@ -31,30 +31,30 @@
 - Understanding MAC addresses
 - ARP (Address Resolution Protocol)
 
----
-
 ## 2. Network Protocols
 
-### 2.1. **Common Network Protocols**
+### [2.1. **Common Network Protocols and Ports**](./02-Network-Protocols/2.1-Protocols.md)
 
-- HTTP/HTTPS
-- FTP/SFTP/FTPS
-- SSH
-- SMTP/IMAP/POP3
-- SNMP
+- **Common Network Protocols**
+  - HTTP/HTTPS
+  - FTP/SFTP/FTPS
+  - SSH
+  - SMTP/IMAP/POP3
+  - SNMP
+- **Common Ports**
 
-### 2.2. **TCP/UDP**
+### [2.2. **TCP/UDP**](./02-Network-Protocols/2.2-TCP-UDP.md)
 
 - Differences between TCP and UDP.
 - Common TCP and UDP ports and their uses.
 
-### 2.3. **Routing and Switching**
+### [2.3. **Routing and Switching**](./02-Network-Protocols/2.3-Routing-Switching.md)
 
 - Basics of routers and switches
 - Static vs. dynamic routing
 - Common routing protocols (OSPF, BGP, etc.)
 
-### 2.4. **Network Services**
+### [2.4. **Network Services**](./02-Network-Protocols/2.4-Network-Services.md)
 
 - DHCP (Dynamic Host Configuration Protocol):
   - How DHCP works.
@@ -63,14 +63,10 @@
 
 ## 3. Network Devices and Components
 
-### 3.1. **Routers and Switches:**
+### [3.1. **Firewalls:**](./03-Network-Devices-and-Components/3.1-Firewalls.md)
 
-- Functionality and configuration basics.
-- Routing protocols (RIP, OSPF, BGP).
-
-### 3.2. **Firewalls:**
-
-- How firewalls work
+- What is firewall?
+- How firewalls work?
 - Types of firewalls (network-based, host-based).
 - Firewall rules and configurations.
 - security groups and network ACLs
