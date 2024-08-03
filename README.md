@@ -1,31 +1,37 @@
 # Networking for DevOps
 
-## [1. Basic Networking Concepts](./01-Module/01-Basic-Networking.md)
+## 1. Basic Networking Concepts
 
-### 1.1. **OSI and TCP/IP Models**
+### [1.1. **OSI and TCP/IP Models**](./01-Basic-Networking-Concepts/1.1-OSI-and-TCP-IP.md)
 
 - Understanding the layers and their functions.
 - Protocols associated with each layer
 - Difference between OSI and TCP/IP models.
 
-### 1.2. **IP Addressing**
+### [1.2. **IP Addressing**](./01-Basic-Networking-Concepts/1.2-IPv4-Addressing.md)
 
 - IPv4 and IPv6
-- Subnetting and Supernetting
-- Public vs. private IP addresses
-- CIDR (Classless Inter-Domain Routing).
+- Classes of IP addresses (A, B, C)
+- Private vs. Public IP addresses
 - NAT (Network Address Translation)
 
-### 1.3. **DNS (Domain Name System)**
+### [1.3. Subnetting and Supernetting](./01-Basic-Networking-Concepts/1.3-Subnetting.md)
+
+- Subnetting and Supernetting
+- Subnet masks and CIDR notation
+
+### [1.4. **DNS (Domain Name System)**](./01-Basic-Networking-Concepts/1.4-DNS.md)
 
 - How DNS works
 - Types of DNS records (A, AAAA, CNAME, MX, PTR, etc.)
 - DNS resolution process
 
-### 1.4. **MAC Addressing**
+### [1.5. **MAC Addressing**](./01-Basic-Networking-Concepts/1.5-MAC.md)
 
 - Understanding MAC addresses
 - ARP (Address Resolution Protocol)
+
+---
 
 ## 2. Network Protocols
 
