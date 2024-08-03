@@ -97,95 +97,28 @@
 - Importance and methods of network segmentation.
 - VLANs (Virtual Local Area Networks).
 
----
+## 5. Monitoring and Troubleshooting
 
-## 5. Cloud Networking
+### 5.1. **Network Monitoring Tools**
 
-### 5.1. **Virtual Private Cloud (VPC)**
+- Common network troubleshooting commands (Ping, traceroute, netstat, nslookup, dig, tcpdump, Wireshark).
+- Network performance metrics
 
-- VPC setup and configuration
-- Subnets, route tables, and gateways
+### 5.2. **Troubleshooting Techniques**
 
-2. **Security Groups and Network ACLs**
+- Analyzing network traffic
+- Diagnosing and resolving network issues
 
-   - Configuring and managing security groups
-   - Network ACLs (Access Control Lists) in cloud environments
+## 6. Advanced Networking Concepts
 
-3. **Load Balancers in the Cloud**
+### 6.1. Software-Defined Networking (SDN)
 
-   - Cloud-specific load balancing services (e.g., AWS ELB, Azure Load Balancer)
+- Understanding the basics.
 
-4. **DNS Services in the Cloud**
-   - Cloud DNS services (e.g., Route 53, Azure DNS)
+### 6.2. Network Function Virtualization (NFV)
 
-### Monitoring and Troubleshooting
+- Concept and applications.
 
-1. **Network Monitoring Tools**
+### 6.3. Overlay Networks
 
-   - Common tools (Wireshark, tcpdump, Nagios, etc.)
-   - Network performance metrics
-
-2. **Troubleshooting Techniques**
-   - Analyzing network traffic
-   - Diagnosing and resolving network issues
-
-### Practical Skills
-
-1. **Shell Scripting for Network Management**
-
-   - Automating network tasks with scripts
-
-2. **Configuring and Managing Network Devices**
-
-   - Basic configuration of routers, switches, and firewalls
-
-3. **Using Cloud Provider Networking Tools**
-   - Managing cloud networking components through the cloud provider's console and CLI
-
-By mastering these concepts and skills, you'll be well-prepared for a DevOps Engineer role with a strong foundation in networking.
-
----
-
-### **Cloud Networking**
-
-1. **VPC (Virtual Private Cloud):**
-
-   - VPC configuration and components (subnets, route tables, internet gateways).
-   - Security groups and network ACLs.
-
-2. **Hybrid Cloud Connectivity:**
-
-   - Direct Connect (AWS), ExpressRoute (Azure), Cloud Interconnect (GCP).
-
-3. **DNS Services:**
-   - Cloud DNS services (Route 53, Azure DNS, Cloud DNS).
-
-### **Network Monitoring and Troubleshooting**
-
-1. **Network Monitoring Tools:**
-
-   - Tools like Nagios, Zabbix, Prometheus, Grafana.
-
-2. **Packet Analysis:**
-
-   - Tools like Wireshark for packet capture and analysis.
-
-3. **Troubleshooting Techniques:**
-   - Common network troubleshooting commands (ping, traceroute, netstat, nslookup, dig).
-
-### **Scripting and Automation**
-
-1. **Infrastructure as Code (IaC):**
-
-   - Using tools like Terraform, Ansible for network configuration management.
-
-2. **Network Automation:**
-
-   - Scripting for network automation (Python, Bash).
-
-3. **Configuration Management:**
-   - Tools like Ansible, Puppet, Chef for managing network device configurations.
-
-Understanding these networking concepts and technologies will be essential for a DevOps Engineer role, enabling you to design, deploy, and manage reliable and secure network infrastructure.
-
----
+- VXLAN, GRE tunnels.
