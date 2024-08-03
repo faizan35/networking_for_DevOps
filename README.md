@@ -71,7 +71,7 @@
 - Firewall rules and configurations.
 - security groups and network ACLs
 
-### 3.3. **Load Balancers:**
+### [3.2. **Load Balancers:**](./03-Network-Devices-and-Components/3.2-Load-Balancers.md)
 
 - Layer 4 vs. Layer 7
 - Types of load balancers (hardware, software, cloud-based).
@@ -79,39 +79,41 @@
 
 ## 4. Network Security
 
-### 4.1. **VPNs (Virtual Private Networks)**
+### [4.1. **VPNs (Virtual Private Networks)**](./04-Network-Security/4.1-VPN.md)
 
+- What is VPN?
 - Types of VPNs (site-to-site, remote access)
 - VPN protocols (IPsec, SSL/TLS)
 
-### 4.2. **Proxy Servers**
+### [4.2. **Proxy Servers**](./04-Network-Security/4.2-Proxy-Servers.md)
 
+- What is Proxy Servers?
 - Forward proxy vs. reverse proxy
 - Use cases for proxies
 
-### 4.3. **Intrusion Detection and Prevention Systems (IDS/IPS):**
+### [4.3. **Intrusion Detection and Prevention Systems (IDS/IPS):**](./04-Network-Security/4.3-IDS-IPS.md)
 
 - Understanding IDS and IPS.
 - Difference between detection and prevention.
 
-### 4.4. **Network Segmentation:**
+### [4.4. **Network Segmentation:**](./04-Network-Security/4.4-Network-Segmentation.md)
 
 - Importance and methods of network segmentation.
 - VLANs (Virtual Local Area Networks).
 
 ## 5. Monitoring and Troubleshooting
 
-### 5.1. **Network Monitoring Tools**
+### [5.1. **Network Monitoring Tools**](./05-Monitoring-and-Troubleshooting/5.1-Network-Monitoring-Tools.md)
 
 - Common network troubleshooting commands (Ping, traceroute, netstat, nslookup, dig, tcpdump, Wireshark).
 - Network performance metrics
 
-### 5.2. **Troubleshooting Techniques**
+### [5.2. **Troubleshooting Techniques**](./05-Monitoring-and-Troubleshooting/5.2-Troubleshooting-Techniques.md)
 
 - Analyzing network traffic
 - Diagnosing and resolving network issues
 
-## 6. Advanced Networking Concepts
+## [6. Advanced Networking Concepts](./06-Advanced-Networking-Concepts/Readme.md)
 
 ### 6.1. Software-Defined Networking (SDN)
 
